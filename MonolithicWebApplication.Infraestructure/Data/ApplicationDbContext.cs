@@ -22,9 +22,9 @@ namespace MonolithicWebApplication.Infraestructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category() { IdCategory = 1, NameCategory = "Smartphone" },
-                new Category() { IdCategory = 2, NameCategory = "Consoles" },
-                new Category() { IdCategory = 3, NameCategory = "Laptops" });
+                new Category() { IdCategory = 1, NameCategory = "Smartphone" , DescriptionCategory = "Smartphone" },
+                new Category() { IdCategory = 2, NameCategory = "Consoles" , DescriptionCategory= "Consoles" },
+                new Category() { IdCategory = 3, NameCategory = "Laptops" , DescriptionCategory= "Laptops" });
         }
     }
 }

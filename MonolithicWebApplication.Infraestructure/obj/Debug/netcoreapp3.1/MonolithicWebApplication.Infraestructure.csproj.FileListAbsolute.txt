@@ -1,0 +1,15 @@
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.deps.json
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.runtimeconfig.json
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.runtimeconfig.dev.json
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.dll
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.pdb
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Business.dll
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Business.pdb
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.AssemblyInfo.cs
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.csproj.CopyComplete
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.dll
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.pdb
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Infraestructure\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Infraestructure.genruntimeconfig.cache

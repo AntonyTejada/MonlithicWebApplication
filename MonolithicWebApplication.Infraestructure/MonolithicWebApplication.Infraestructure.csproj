@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MonolithicWebApplication.Business\MonolithicWebApplication.Business.csproj" />
-    <ProjectReference Include="..\MonolithicWebApplication\MonolithicWebApplication.csproj" />
   </ItemGroup>
 
 </Project>
