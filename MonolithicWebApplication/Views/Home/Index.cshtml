@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<ProductModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,3 +7,53 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to TechnologyWebStore</h1>
+    <p>Learn more and find the greatest variety in technology.</p>
+    <br />
+    <div class="row" align="center">
+        @foreach (var product in Model)
+        {
+            <div class="card" style="width: 20rem;">
+                <img src="@product.ImageUrlProduct" class="card-img-top" alt="..." style="height:200px;">
+                <div class="card-body">
+                    <h5 class="card-title">@product.NameProduct</h5>
+                    <h5 class="card-title">@product.DescriptionProduct</h5>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+<div class="row">
+    <button onclick="getAPI()" class="btn btn-primary form-control">Get</button>
+    <div class="row">
+        <ul id="uList"></ul>
+    </div>
+</div>
+
+
+<script>
+
+    function getAPI() {
+        $.ajax({
+            type: "GET",
+            url: 'https://jsonplaceholder.typicode.com/todos/',
+            contentType: "application/json",
+            success: function (data) {
+                console.log('Data Inicia');
+                for (var i = 0; i < data.length; i++) {
+                    $('#uList').append("<li>" + data[i].title + "</li>")
+                }
+                console.log('Data Finaliza');
+            },
+            error: function (data) {
+                alert('Error');
+            }
+        });
+    }
+
+</script>

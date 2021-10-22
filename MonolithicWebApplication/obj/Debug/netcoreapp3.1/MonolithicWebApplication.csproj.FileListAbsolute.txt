@@ -371,12 +371,15 @@ C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplicat
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.TagHelpers.input.cache
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.TagHelpers.output.cache
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.RazorCoreGenerate.cache
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\AdminProduct\DeleteProduct.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\AdminProduct\Products.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\AdminProduct\UpsertProduct.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -387,4 +390,5 @@ C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplicat
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.dll
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.pdb
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\MonolithicWebApplication.genruntimeconfig.cache
-C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs

@@ -123,17 +123,26 @@ namespace MonolithicWebApplication.Controllers
 
         public IActionResult DeleteProduct(int? id)
         {
-            var products = _productRepository.Get();
-            IEnumerable<SelectListItem> productsList = GetCategories(); //(IEnumerable<SelectListItem>)products.ToList();
-
             NewProduct newProduct = new NewProduct();
-            newProduct.CategoryList = productsList;
+            newProduct.CategoryList = GetCategories(); 
 
             if (id != null)
             {
-                List<ProductModel> productList = new List<ProductModel>();
-                ProductModel product = productList.Where(x => x.IdProduct == id).FirstOrDefault();
+                Product foundProduct = _productRepository.Get().FirstOrDefault(p => p.CategoryId == id);
+
+                ProductModel product = new ProductModel();
+                product.IdProduct = foundProduct.IdProduct;
+                product.NameProduct = foundProduct.NameProduct;
+                product.DescriptionProduct = foundProduct.DescriptionProduct;
+                product.ImageUrlProduct = foundProduct.ImageUrlProduct;
+                product.MemoryProduct = foundProduct.MemoryProduct;
+                product.StorageCapacityProduct = foundProduct.StorageCapacityProduct;
+                product.ResolutionImageProduct = foundProduct.ResolutionImageProduct;
+                product.PriceProduct = foundProduct.PriceProduct;
+                product.CategoryId = foundProduct.CategoryId;
+
                 newProduct.Product = product;
+
                 return View(newProduct);
             }
             else
@@ -150,9 +159,7 @@ namespace MonolithicWebApplication.Controllers
             {
                 if (productFormData.Product.IdProduct != 0)
                 {
-                    //_dbContext.Remove(_dbContext.Products.Single(p => p.IdProduct == productFormData.Product.IdProduct));
-                    //_dbContext.SaveChanges();
-                    //_productRepository.Delete(_productRepository.Get().Single(p => p.IdProduct == productFormData.Product.IdProduct));
+                    _productRepository.Delete(productFormData.Product.IdProduct);
                     return RedirectToAction(nameof(Products));
                 }
             }
