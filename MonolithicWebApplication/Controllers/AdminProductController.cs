@@ -5,15 +5,20 @@ using MonolithicWebApplication.Infraestructure.Repositories;
 using MonolithicWebApplication.Models;
 using MonolithicWebApplication.Business.Entities;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MonolithicWebApplication.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class AdminProductController : Controller
     {
-        ProductRepository _productRepository = new ProductRepository();
+        ProductRepository _productRepository; //= new ProductRepository();
         CategoriesRepository _categoriesRepository = new CategoriesRepository();
 
-        public AdminProductController() { }
+        public AdminProductController(ProductRepository productRepository) 
+        {
+            _productRepository = productRepository;
+        }
 
         public IActionResult Products()
         {

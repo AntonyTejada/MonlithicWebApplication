@@ -1,15 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MonolithicWebApplication.Business.Entities;
 using MonolithicWebApplication.Infraestructure.API;
+using MonolithicWebApplication.Infraestructure.Data;
+using MonolithicWebApplication.Infraestructure.Extensions;
 using MonolithicWebApplication.Infraestructure.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MonolithicWebApplication
 {
@@ -27,7 +26,13 @@ namespace MonolithicWebApplication
         {
             services.AddControllersWithViews();
             services.AddScoped<IRepository<Product>, ProductRepository>();
+            services.AddScoped<ProductRepository, ProductRepository>();
             services.AddHttpClient<IExternalProductProviderClient, ExternalProductProviderClient>();
+            services.AddIdentity<IdentityUser, IdentityRole>( options => {
+                options.Password.RequireDigit = true;
+                }).AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddDatabaseProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +50,8 @@ namespace MonolithicWebApplication
 
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -52,6 +59,9 @@ namespace MonolithicWebApplication
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                /*endpoints.MapControllerRoute(
+                    name: "Admin",
+                    pattern: "{controller=Admin}/{action=Products}/{id?}");*/
             });
         }
     }

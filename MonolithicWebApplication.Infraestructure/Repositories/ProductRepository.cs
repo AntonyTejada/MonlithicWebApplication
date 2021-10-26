@@ -7,7 +7,12 @@ namespace MonolithicWebApplication.Infraestructure.Repositories
 {
     public class ProductRepository : IRepository<Product>
     {
-        ApplicationDbContext _dbContext = new ApplicationDbContext();
+        ApplicationDbContext _dbContext; // = new ApplicationDbContext();
+
+        public ProductRepository(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         public void Delete(int id)
         {

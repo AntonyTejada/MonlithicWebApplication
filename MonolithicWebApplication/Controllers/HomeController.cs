@@ -12,14 +12,20 @@ namespace MonolithicWebApplication.Controllers
 {
     public class HomeController : Controller
     {
-        ProductRepository _productRepository = new ProductRepository();
         private IExternalProductProviderClient _externalProductProvider;
+        ProductRepository _productRepository; //= new ProductRepository();
         private readonly ILogger<HomeController> _logger;
-
+        /*
         public HomeController(ILogger<HomeController> logger, IExternalProductProviderClient externalProductProviderClient)
         {
             _logger = logger;
             _externalProductProvider = externalProductProviderClient;
+        }
+        */
+        public HomeController(IExternalProductProviderClient externalProductProvider, ProductRepository productRepository)
+        {
+            _productRepository = productRepository;
+            _externalProductProvider = externalProductProvider;
         }
 
         public async Task<IActionResult> Index()

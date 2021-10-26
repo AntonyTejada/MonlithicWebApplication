@@ -1,7 +1,6 @@
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Business.deps.json
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Business.dll
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\bin\Debug\netcoreapp3.1\MonolithicWebApplication.Business.pdb
-C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Business.csproj.AssemblyReference.cache
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Business.AssemblyInfoInputs.cache
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Business.AssemblyInfo.cs
 C:\Users\ANTONY\Documents\MVCCore\MonolithicWebApplication\MonolithicWebApplication.Business\obj\Debug\netcoreapp3.1\MonolithicWebApplication.Business.csproj.CoreCompileInputs.cache
